@@ -289,10 +289,10 @@ install_requires = [
     'pyzmq',
     'chardet>=2.0.0',
     'numpydoc',
-    'pyqt5',
+    # 'pyqt5',
     # This is only needed for our wheels on Linux.
     # See issue #3332
-    'pyopengl;platform_system=="Linux"'
+    # 'pyopengl;platform_system=="Linux"'
 ]
 
 extras_require = {
